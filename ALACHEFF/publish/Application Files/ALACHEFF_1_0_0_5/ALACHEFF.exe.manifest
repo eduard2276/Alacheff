@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ALACHEFF.exe" version="1.0.0.5" publicKeyToken="0c090fcc3ca4f90d" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Logo_black-copy_9c19fd9f7932299c5a7c5e4ad53636df.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ALACHEFF" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ALACHEFF.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ALACHEFF.exe" size="471520">
+      <assemblyIdentity name="ALACHEFF" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ul0W5EiNjGLMi31/yWUYG+mhb6RdWsYFdJJgygMLK3A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.52.dll" size="225792">
+      <assemblyIdentity name="Bunifu_UI_v1.52" version="1.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J8jOp+eTrOc3QViBpcFrTi2YzkZgnScugsbJBa0tnzY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FireSharp.dll" size="20480">
+      <assemblyIdentity name="FireSharp" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SlU4e3nXdnSonb86WtvZlKJZTsPF6CnO5yvk9TiAEoY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FireSharp.Serialization.JsonNet.dll" size="6656">
+      <assemblyIdentity name="FireSharp.Serialization.JsonNet" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v8tHuqNvLE/KR9oC1YREKMVtWwyOjkAKyFsCxUwliHQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="502272">
+      <assemblyIdentity name="Newtonsoft.Json" version="6.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Dt+sa+EXMt3ZnbZoIe5HQIwtwem+1o5e+ajhMMVlt5s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RestSharp.dll" size="160256">
+      <assemblyIdentity name="RestSharp" version="104.4.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ee8FzYT4q3y+T8k3J+KqNq3KsAJmHmoUw5V7fysi5cs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ALACHEFF.exe.config" size="855">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Lfgrm3eB+rrGRj2KmS5pAx9DjUF8WxQ90kWJOCUOxGA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KS2lM3Hw2q1QV7GQ4dVx90Ta3TkZTXseJHJYKx1Ch8o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>P0o5qmmOMbky0f7YEB7tQ1WCCqi4TGYdtPQWUPXJaUs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Logo_black-copy_9c19fd9f7932299c5a7c5e4ad53636df.ico" size="128064">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nMy4f5BlImzqrVaSHwCbIjqPre6CUWz2hASsML3HgEA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-872P9K0\edico" issuerKeyHash="485e0e1bc8750d4fb292eb4300b444fbb96705d3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FMLQUwc+89M7qeFdxcMxx8M1PcPhLkUEjTjFZcwn/Ls=</DigestValue></Reference></SignedInfo><SignatureValue>xxNoX/71SXOm6s0bKB/idIB293ASQ6Wcw7FxAIvr3+H9cYVHWbjqeEL3AZQLRK69yiJvD8C0gLG/5debeInF8IOFjybUFfU3Ezg/04+PieEoXc/L8IQPUN3wB+zUS7AaakX8WTLtjsDwtVXUe9xC5qfJSqNaEUO9VeeiCM8MGCM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7FU8oxQ3sImorgqEJWq9z0vZeZOweL8linQb263iytImKs2yahZDFj9gJGyHJteT3WzDoLnoGZ0zJmI5Imdt18r+BJt8GV4BuuU4OjuRxRc0WGfrXomXQCosVfC4LOGbQZGm0gdgvtd9niAYdE5sLlKY9aYOIgeaXxuBJMyBzIU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bbfc27cc65c5388d04452ee1c33d35c3c731c3c55de1a93bd3f33e0753d0c214" Description="" Url=""><as:assemblyIdentity name="ALACHEFF.exe" version="1.0.0.5" publicKeyToken="0c090fcc3ca4f90d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-872P9K0\edico</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>X8N6xCBJa5jLFHGDe5Q6YWa0YyEJV+HAS1woA3KVfwc=</DigestValue></Reference></SignedInfo><SignatureValue>gUyZLrSkVNrQaUUkh9dbE98KIRvCMkewxsG3En4rrw7mx7CrQ5pgRPq/0ZunzX0jQ8ggnQ0UREPoZ4rF1nikz09Tl4MwaqEXQIdX0BvCezstQI6aPeqypFuJxOGclQ+mLv/kKb8at4kGmOqR/xAND/ihjOQtGftgCJS7Aw20vt4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7FU8oxQ3sImorgqEJWq9z0vZeZOweL8linQb263iytImKs2yahZDFj9gJGyHJteT3WzDoLnoGZ0zJmI5Imdt18r+BJt8GV4BuuU4OjuRxRc0WGfrXomXQCosVfC4LOGbQZGm0gdgvtd9niAYdE5sLlKY9aYOIgeaXxuBJMyBzIU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQRwB3oBGR/KVNvSyujtuAIzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADgANwAyAFAAOQBLADAAXABlAGQAaQBjAG8wHhcNMjAxMDMwMTQzNjQxWhcNMjExMDMwMjAzNjQxWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADgANwAyAFAAOQBLADAAXABlAGQAaQBjAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOxVPKMUN7CJqK4KhCVqvc9L2XmTsHi/JYp0G9ut4srSJirNsmoWQxY/YCRshybXk91sw6C56BmdMyZiOSJnbdfK/gSbfBleAbrlODo7kcUXNFhn616Jl0AqLFXwuCzhm0GRptIHYL7XfZ4gGHRObC5SmPWmDiIHml8bgSTMgcyFAgMBAAEwDQYJKoZIhvcNAQELBQADgYEA1STZuJMw+XYSSZOHgjEQzMtJKQTE/bSkI/uQVv1Twp3OD1XKtVU12Us1BUs5Lkt7Y8SRyAAKDgDfRMha/ea+YGQu+6SGqcPx7+4++2PlbfWVXAM5V+Zm9bcOorDsEed2jeozkgeKOmaNAX0dbHWA8jDM4nvgoQeBp9bJIG0Hlm8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

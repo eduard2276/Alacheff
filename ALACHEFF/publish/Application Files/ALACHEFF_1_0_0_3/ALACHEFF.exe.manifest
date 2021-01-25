@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ALACHEFF.exe" version="1.0.0.3" publicKeyToken="0c090fcc3ca4f90d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ALACHEFF" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ALACHEFF.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ALACHEFF.exe" size="316896">
+      <assemblyIdentity name="ALACHEFF" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BSVIhbIYhse8KmStR/GgQaa/cK7DAKPLQrK9lCjC5DE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.52.dll" size="225792">
+      <assemblyIdentity name="Bunifu_UI_v1.52" version="1.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J8jOp+eTrOc3QViBpcFrTi2YzkZgnScugsbJBa0tnzY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ALACHEFF.exe.config" size="855">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Lfgrm3eB+rrGRj2KmS5pAx9DjUF8WxQ90kWJOCUOxGA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7kNF1sBEgr2tHvNtRNZnUraTy3QonVvKsiqw/oZQGvU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LFRqoNGRZqkQREYdo8+zUlnf/scOSDWFfUYFFNFK2bU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-872P9K0\edico" issuerKeyHash="485e0e1bc8750d4fb292eb4300b444fbb96705d3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7CqPmoC3Jj2DSkJfTeman9zjtVr1TooYUD1TcpYVWNQ=</DigestValue></Reference></SignedInfo><SignatureValue>2J8IH+UJOVSL0/3+CRb5W5ReV44D1I1TwlUjQ6tJ8OKmKYzwjJSVqiP6/pIoH+0lADy3o+DjRSXFgyJU15ZqLSzNCdq5lpTC1GP1Y+djeA19r4DrrWAq4QToLcDjUomHB0QwVunQloMQgwi2HZESgTMkGpGQN21MTVoWcrsEkLc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7FU8oxQ3sImorgqEJWq9z0vZeZOweL8linQb263iytImKs2yahZDFj9gJGyHJteT3WzDoLnoGZ0zJmI5Imdt18r+BJt8GV4BuuU4OjuRxRc0WGfrXomXQCosVfC4LOGbQZGm0gdgvtd9niAYdE5sLlKY9aYOIgeaXxuBJMyBzIU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d458159672533d50188a4ef55ab5e3dc9f9ae94d5f424a833d26b7809a8f2aec" Description="" Url=""><as:assemblyIdentity name="ALACHEFF.exe" version="1.0.0.3" publicKeyToken="0c090fcc3ca4f90d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-872P9K0\edico</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>T8P8QGDT0OSSJc1/RywekgKyioZDr0hJh6m3A3POPlw=</DigestValue></Reference></SignedInfo><SignatureValue>Q8fVUcantNHOBLxnpbu+MU0rQpQOPKiUf4IWcNKyDLsx5M7fyTW0oHocl3mt2ToO3sgm9yWR79vpZ1n4eihzS0spxjjk66UCZ3jmD9nY2Z/RDGqTYDAgIYOfBGY1mlTKtHb2hVlwOu3/o9wK3j6miNgUjkALOdZePA2519NHsZ8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7FU8oxQ3sImorgqEJWq9z0vZeZOweL8linQb263iytImKs2yahZDFj9gJGyHJteT3WzDoLnoGZ0zJmI5Imdt18r+BJt8GV4BuuU4OjuRxRc0WGfrXomXQCosVfC4LOGbQZGm0gdgvtd9niAYdE5sLlKY9aYOIgeaXxuBJMyBzIU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQRwB3oBGR/KVNvSyujtuAIzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADgANwAyAFAAOQBLADAAXABlAGQAaQBjAG8wHhcNMjAxMDMwMTQzNjQxWhcNMjExMDMwMjAzNjQxWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADgANwAyAFAAOQBLADAAXABlAGQAaQBjAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOxVPKMUN7CJqK4KhCVqvc9L2XmTsHi/JYp0G9ut4srSJirNsmoWQxY/YCRshybXk91sw6C56BmdMyZiOSJnbdfK/gSbfBleAbrlODo7kcUXNFhn616Jl0AqLFXwuCzhm0GRptIHYL7XfZ4gGHRObC5SmPWmDiIHml8bgSTMgcyFAgMBAAEwDQYJKoZIhvcNAQELBQADgYEA1STZuJMw+XYSSZOHgjEQzMtJKQTE/bSkI/uQVv1Twp3OD1XKtVU12Us1BUs5Lkt7Y8SRyAAKDgDfRMha/ea+YGQu+6SGqcPx7+4++2PlbfWVXAM5V+Zm9bcOorDsEed2jeozkgeKOmaNAX0dbHWA8jDM4nvgoQeBp9bJIG0Hlm8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

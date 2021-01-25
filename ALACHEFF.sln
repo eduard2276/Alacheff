@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALACHEFF", "ALACHEFF\ALACHEFF.csproj", "{B5BD3206-FC41-4010-AF3D-2CF64044E43D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{F340A3BA-8A92-4B32-A7A4-130CA27383E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5BD3206-FC41-4010-AF3D-2CF64044E43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BD3206-FC41-4010-AF3D-2CF64044E43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BD3206-FC41-4010-AF3D-2CF64044E43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BD3206-FC41-4010-AF3D-2CF64044E43D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F340A3BA-8A92-4B32-A7A4-130CA27383E1}.Debug|Any CPU.ActiveCfg = Debug
+		{F340A3BA-8A92-4B32-A7A4-130CA27383E1}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B800E006-CC6D-4B66-B28A-56638E223858}
+	EndGlobalSection
+EndGlobal
